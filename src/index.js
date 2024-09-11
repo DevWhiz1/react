@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Counter from './components/Counter';
 import App from './App';
 import NavBar from './components/NavBar';
-
+import Welcome from "./components/Welcome";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
