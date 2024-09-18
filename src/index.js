@@ -7,11 +7,13 @@ import Counter from './components/Counter';
 import App from './App';
 import NavBar from './components/NavBar';
 import Welcome from "./components/Welcome";
+import Home from './components/Home';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
     <App/>
+{/* <Home/> */}
    
   </React.StrictMode>
 );

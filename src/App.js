@@ -13,6 +13,7 @@ import Services from './components/Services'; // Component for the services page
 import NavBar from './components/NavBar'; // Component for navigation bar.
 import Footer from './components/Footer'; // Component for footer.
 import State from './components/State'; // This component is currently rendered outside of routing.
+import UserForm from './components/UserForm';
 
 const App = () => {
   return (
@@ -20,7 +21,7 @@ const App = () => {
     <Router>
       {/* NavBar component will be rendered at the top of every page, as it's placed outside the Routes. */}
       <NavBar/>
-      
+      <UserForm/>
       {/* State component is rendered here; it's not a part of the defined routes. */}
       <State/>
 
@@ -39,8 +40,9 @@ const App = () => {
       </Routes>
       
       {/* Footer component isn't included but can be placed here if needed to be displayed on all routes. */}
-    </Router>
-  )
+      <Footer/>
+     
+    </Router>  )
 }
 
 export default App;
